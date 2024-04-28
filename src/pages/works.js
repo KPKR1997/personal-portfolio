@@ -58,7 +58,7 @@ const works = [
                         <h1 className={darkmode?styles.headingText:styles.headingText_DM}>Recent Works</h1>
                     </div>
                     <div className = {styles.worksSubSection}>
-                        {works.map(work=>(
+                        {works && works.map(work=>(
                             <Worktiles thumbnail = {work.thumbnail} darkmode = {darkmode} type = {work.type} platforms = {work.platforms} workname = {work.workname} link = {work.link}/>
                         ))}
                     </div>
