@@ -59,7 +59,7 @@ const works = [
                     </div>
                     <div className = {styles.worksSubSection}>
                         {works.map(work=>(
-                            <Worktiles thumbnail = {work.thumbnail}  type = {work.type} platforms = {work.platforms} workname = {work.workname} link = {work.link}/>
+                            <Worktiles thumbnail = {work.thumbnail} darkmode = {darkmode} type = {work.type} platforms = {work.platforms} workname = {work.workname} link = {work.link}/>
                         ))}
                     </div>
                 </div>
