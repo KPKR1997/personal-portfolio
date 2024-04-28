@@ -1,7 +1,7 @@
 import styles from '@/styles/works.module.css';
 import {useState, useEffect} from 'react';
 import Navbar from "./components/navbar";
-import Link from 'next/Link';
+import Link from 'next/link';
 import React from 'react';
 import {Footer} from "./components/footer"
 import {Worktiles} from "./components/worktiles"

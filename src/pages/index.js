@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Navbar from "./components/navbar";
-import Link from 'next/Link';
+import Link from 'next/link';
 import React from 'react';
 import Video from 'next-video';
 import {useState, useEffect} from 'react';

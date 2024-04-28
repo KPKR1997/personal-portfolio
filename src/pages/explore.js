@@ -4,7 +4,7 @@ import styles from "@/styles/explore.module.css";
 import Navbar from "./components/navbar";
 import {VideoFrame} from "./components/videoFrame";
 import {VideoFrame2} from "./components/videoFrame2";
-import Link from 'next/Link';
+import Link from 'next/link';
 import React from 'react';
 
 export default function Explore() {

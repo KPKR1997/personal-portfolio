@@ -2,7 +2,7 @@ import styles from '@/styles/profile.module.css';
 import Head from "next/head";
 import {useState, useEffect} from 'react';
 import Navbar from "./components/navbar";
-import Link from 'next/Link';
+import Link from 'next/link';
 import React from 'react';
 import {Footer} from "./components/footer"
 

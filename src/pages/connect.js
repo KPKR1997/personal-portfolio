@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react';
 import Navbar from "./components/navbar";
-import Link from 'next/Link';
 import React from 'react';
 import {Footer} from "./components/footer"
 import styles from "@/styles/connect.module.css";
