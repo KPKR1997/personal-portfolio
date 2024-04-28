@@ -1,5 +1,6 @@
 import styles from './worktiles.module.css';
 import Link from 'next/link';
+import React from 'react';
 
 const Worktiles = (props)=>{
     return(
