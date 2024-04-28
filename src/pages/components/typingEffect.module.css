@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: #000000;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    transition: 1s all;
+    margin-right: 55px;
+}
+
+.wrapper {
+    display: flex;
+}
+.wrapper .first_text {
+    font-size: 60px;
+    color: #fff;
+}
+.wrapper .sec_texts {
+    height: 60px;
+    line-height: 70px;
+    overflow: hidden;
+    text-align: center;
+}
+.sec_texts li {
+    position: relative;
+    top: 0;
+    font-size: 40px;
+    color: rgb(2, 88, 163);
+    list-style: none;
+    padding: 0 20px;
+    animation: slideAnimation 20s steps(5) infinite;
+}
+@keyframes slideAnimation {
+    100% {
+        top: -560px;
+    }
+}
+@keyframes colorfulAnimation {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.sec_texts li span {
+    position: relative;
+}
+.sec_texts li span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 600px;
+    height: 70px;
+    background: #000000;
+    border-left: 2px solid white;
+    animation: typingAnimation 2s steps(19) infinite alternate;
+    transition: 1s all;
+}
+
+@keyframes typingAnimation {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+/* ________________________________________________________________DARK MODE_________________________________________________________ */
+
+.bodyDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    transition: 1s all;
+    margin-right: 55px;
+}
+
+.wrapper_dark {
+    display: flex;
+}
+.wrapper_dark .first_text_dark {
+    font-size: 60px;
+    color: #fff;
+}
+.wrapper_dark .sec_texts_dark {
+    height: 60px;
+    line-height: 70px;
+    overflow: hidden;
+    text-align: center;
+
+}
+.sec_texts_dark li {
+    position: relative;
+    top: 0;
+    font-size: 40px;
+    color: rgb(2, 88, 163);
+    list-style: none;
+    padding: 0 20px;
+    animation: slideAnimation 20s steps(5) infinite;
+}
+@keyframes slideAnimation {
+    100% {
+        top: -350px;
+    }
+}
+@keyframes colorfulAnimation {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.sec_texts_dark li span {
+    position: relative;
+}
+.sec_texts_dark li span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 600px;
+    height: 70px;
+    background: #ffffff;
+    border-left: 2px solid black;
+    animation: typingAnimation 2s steps(19) infinite alternate;
+    transition: 1s all;
+}
+
+@keyframes typingAnimation {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+
+/* -------------------------------------------------RESPONSIVE------------------------------------------------------------------- */
+
+
+@media screen and (max-width:850px){
+    .body1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        background: #000000;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        transition: 1s all;
+        margin-right: 35px;
+    }
+    
+    .wrapper {
+        display: flex;
+    }
+    .wrapper .first_text {
+        font-size: 60px;
+        color: #fff;
+    }
+    .wrapper .sec_texts {
+        height: 60px;
+        line-height: 70px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .sec_texts li {
+        position: relative;
+        top: 0;
+        font-size: 30px;
+        color: rgb(255, 123, 0);
+        list-style: none;
+        padding: 0 20px;
+        animation: slideAnimation 20s steps(5) infinite, colorfulAnimation 12s infinite;
+    }
+    @keyframes slideAnimation {
+        100% {
+            top: -560px;
+        }
+    }
+    @keyframes colorfulAnimation {
+        100% {
+            filter: hue-rotate(360deg);
+        }
+    }
+    .sec_texts li span {
+        position: relative;
+    }
+    .sec_texts li span::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 600px;
+        height: 70px;
+        background: #000000;
+        border-left: 2px solid rgb(255, 72, 0);
+        animation: typingAnimation 2s steps(19) infinite alternate;
+        transition: 1s all;
+    }
+    
+    @keyframes typingAnimation {
+        100% {
+            left: 100%;
+            margin: 0 -35px 0 35px;
+        }
+    }
+    
+    /* ________________________________________________________________DARK MODE_________________________________________________________ */
+    
+    .bodyDark {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        background: #ffffff;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        transition: 1s all;
+        margin-right: 35px;
+    }
+    
+    .wrapper_dark {
+        display: flex;
+    
+    }
+    .wrapper_dark .first_text_dark {
+        font-size: 40px;
+        color: #fff;
+    }
+    .wrapper_dark .sec_texts_dark {
+        height: 60px;
+        line-height: 70px;
+        overflow: hidden;
+        text-align: center;
+    
+    }
+    .sec_texts_dark li {
+        position: relative;
+        top: 0;
+        font-size: 30px;
+        color: rgb(2, 88, 163);
+        list-style: none;
+        padding: 0 20px;
+        animation: slideAnimation 20s steps(5) infinite;
+    }
+    @keyframes slideAnimation {
+        100% {
+            top: -350px;
+        }
+    }
+    @keyframes colorfulAnimation {
+        100% {
+            filter: hue-rotate(360deg);
+        }
+    }
+    .sec_texts_dark li span {
+        position: relative;
+    }
+    .sec_texts_dark li span::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 600px;
+        height: 70px;
+        background: #ffffff;
+        border-left: 2px solid black;
+        animation: typingAnimation 2s steps(19) infinite alternate;
+        transition: 1s all;
+    }
+    
+    @keyframes typingAnimation {
+        100% {
+            left: 100%;
+            margin: 0 -35px 0 35px;
+        }
+    }
+}

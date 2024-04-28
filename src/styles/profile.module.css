@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@100..900&family=Noto+Sans+Malayalam:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playball&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+
+.main{
+    background: black;
+    width: 100%;
+    transition: 1s all;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main_DM{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    transition: 1s all;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topRef{
+    margin-top:130px;
+    width: 100%;
+}
+
+/* -------Main section -------- */
+
+.mainSection{
+    /* border: 1px solid rgb(120, 120, 120); */
+    /* height: 85vh; */
+    width: 95%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow:  5px 5px 30px rgb(49, 70, 81);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.Imgdiv{
+    border: 2px solid rgb(252, 252, 252);
+    width:26rem;
+    height: 26rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    transition: 1s all;
+    margin-top: 20px;
+}
+.Imgdiv_DM{
+    border: 2px solid BLACK;
+    width:26rem;
+    height: 26rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    transition: 1s all;
+    /* background: rgb(0, 0, 0); */
+    margin-top: 20px;
+}
+.profileImage{
+    width:40rem;
+    height: 30rem;
+    background-size: cover;
+    filter:brightness(80%) contrast(130%);
+    margin-right:30px;
+    transition: 1s all;
+}
+.profileImage_DM{
+    width:40rem;
+    height: 30rem;
+    background-size: cover;
+    filter:brightness(90%) contrast(110%);
+    margin-right:30px;
+    transition: 1s all;
+}
+.bioDetailsDiv{
+    width: 40rem;
+    height: 27rem;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 10px  rgb(116, 141, 159) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bioDetailsDiv_DM{
+    width: 40rem;
+    height: 27rem;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 10px  rgb(116, 141, 159) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bioDetailsDiv h1{
+    color: rgb(2, 88, 163);
+ }
+.bioDetailsDiv_DM h1{
+    color: rgb(2, 88, 163);
+ }
+ .bioDetailsDiv p{
+     color: rgb(255, 255, 255);
+     line-height: 40px;
+     transition: 1s all;
+ }
+
+ .bioDetailsDiv_DM p{
+     line-height: 40px;
+     transition: 1s all;
+ }
+
+
+.downloadCvDiv{
+    width:90rem;
+    height: 7rem;
+    /* border: 1px solid yellow; */
+    /* margin:40px auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downloadBtn{
+    background: rgb(2, 88, 163);
+    width:250px;
+    height: 60px;
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    transition: 1s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downloadBtn:hover{
+    background: rgb(2, 88, 163);
+    width:240px;
+    height: 55px;
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(71, 149, 188);
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.downloadLink h3{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+.downloadLink h3:hover{
+    color: rgb(192, 189, 189);
+    text-decoration: none;
+    transition: 0.5s all;
+}
+.downloadLink{
+    text-decoration: none;
+
+}
+.malayalam{
+    font-family: "Noto Sans Malayalam", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+     font-style: normal;
+     float:left ;
+}
+
+/* -----------RESPONSIVE---------- */
+
+@media screen and (max-width:800px){
+    .topRef{
+        margin-top:200px;
+        
+    }
+    .Imgdiv{
+        margin-top: 30px;
+    }
+    .Imgdiv_DM{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .topRef{
+        margin-top:135px;
+    }
+    .Imgdiv{
+        width:20rem;
+        height:20rem;
+        margin-top: 30px;
+    }
+    .Imgdiv_DM{
+        width:20rem;
+        height:20rem;
+        margin-top: 30px;
+    }
+    .profileImage{
+        width:35rem;
+        height: 25rem;
+        margin-top:70px;
+    }
+    .profileImage_DM{
+        width:35rem;
+        height: 25rem;
+        margin-top:70px;
+    }
+}
+
+@media screen and (min-width:1600px){
+    .topRef{
+        margin-top: 150px;
+    }
+}

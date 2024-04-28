@@ -1,0 +1,74 @@
+.mainDiv{
+    background: rgb(0, 0, 0);
+    /* height:110vh; */
+    width: 100%;
+    transition: 1s all;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.mainDiv_DM{
+    background: rgb(255, 255, 255);
+    /* height:110vh; */
+    width: 100%;
+    transition: 1s all;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.topRef{
+    margin-top: 160px;
+    width: 100%;
+}
+.workSection{
+    /* border: 1px solid rgb(254, 254, 254); */
+    width:95%;
+    min-height:110vh;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    transition: 2s all ease;
+    box-shadow:  5px 5px 30px rgb(49, 70, 81);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.worksSubSection{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    transition: 1s all ease;
+}
+.headingSection{
+    width:100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.headingSection{
+    color: rgb(46, 131, 228);
+}
+.headingText{
+    color:aliceblue;
+    transition:all 1s;
+}
+
+@media screen and (max-width:800px){
+    .topRef{
+        margin-top:200px;
+        
+    }
+}
+@media screen and (max-width:500px){
+    .topRef{
+        margin-top:135px;
+    }
+}

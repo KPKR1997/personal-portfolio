@@ -1,0 +1,87 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height:fit-content;
+    flex-direction: column;
+    background-color: rgb(2, 88, 163);
+    color: white;
+    text-align: center;
+    display: flex;
+    position: relative;
+    height:170px
+ }
+ .footerBrand{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    /* float: left; */
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+ }
+ .footerBrand h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    
+ }
+ .footerBrand p{
+    
+ }
+
+ .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 160px;
+ }
+
+ .footerImg{
+    height: 80px;
+ }
+
+ .footerRights{
+    /* height:100px; */
+    display: flex;
+    justify-content: center;
+ }
+ .rightsStatement{
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ @media screen and (max-width:800px){
+    .footerBrand{
+        width:100%;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        flex-direction: column;
+     }
+     .footerBrand h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+     }
+     .footerBrand p{
+        margin-top: 30px;
+     }
+     .footer {
+        height: 300px;
+     }
+     .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* margin-left: 160px; */
+        margin: auto;
+     }
+ }

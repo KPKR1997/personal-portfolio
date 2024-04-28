@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playball&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+/* --------Main------------- */
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: column;
+    background-color: black;
+    transition: 1s all;
+    overflow-x: hidden;
+    scroll-behavior: 2s smooth;
+}
+.main_DM{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    transition: 1s all;
+    overflow-x: hidden;
+}
+/* ---------------Dummy div for Nav Overlap--------------- */
+.topRef{
+    height:130px;
+}
+
+/* ---------------Splash Window--------------- */
+
+.splashWindow{
+    width:90%;
+    /* height:600px; */
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    /* box-shadow: 2px 2px 100px rgb(30, 38, 49); */
+}
+.splashCaption{
+    width:50%;
+    height: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.splashImg{
+    width:50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.splashText{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;  
+}
+.splashText h2{
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    transition: 1s all;
+}
+.splashText p{
+    color: aliceblue;
+    text-align: center;
+    transition: 1s all;
+}
+.splashText_DM{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;  
+}
+.splashText_DM h2{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    transition: 1s all;
+}
+.splashText_DM p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: 1s all;
+}
+.splashPicture{
+    height: 105%;
+    filter:brightness(80%) contrast(135%);
+    transition: 1s all;
+}
+.splashPicture_DM{
+    height: 105%;
+    filter:brightness(90%) contrast(115%);
+    transition: 1s all;
+}
+
+.socialMedia{
+    width:60%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    transition: 1s all;
+}
+
+.socialMediaItem{
+    height: 30px;
+    transition: all 1s;
+    transition: 1s all;
+}
+
+.socialMediaItem:hover{
+    height: 35px;
+    transition: all 1s;
+}
+.socialMediaLink{
+    transition: all 1s;
+    text-decoration:none ;
+}
+
+/* ------------------About me Section------------------------ */
+
+.aboutSection{
+    width:90%;
+    padding: 20px;
+    box-shadow: 5px 5px 30px rgb(49, 70, 81);
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+}
+
+.aboutMeMain{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+}
+.aboutMeMain h1{
+   color:rgb(2, 88, 163);
+}
+.aboutMeMain p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+ }
+ .aboutMeMain_DM{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+}
+.aboutMeMain_DM h1{
+   color: rgb(2, 88, 163);
+}
+.aboutMeMain_DM p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 30px;
+ }
+ .exploreBtn{
+    width:300px;
+    height:3rem;
+    background: rgb(2, 88, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin:30px;
+    
+}
+
+.exploreBtn:hover{
+    width:300px;
+    height:3rem;
+    background: rgb(2, 88, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #3772d1;
+    transition: 0.5s all;
+}
+.exploreBtnLink{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.exploreBtn h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.5s all;
+    font-size: 20px;
+}
+
+.exploreBtn h3:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    transition: 0.5s all;
+    margin-right: 10px;
+}
+
+.exploreBtn h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.5s all;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* -----------------Skills & Exp------------------ */
+
+.expSkillsSection{
+     width:90%;
+     box-shadow: 5px 5px  30px rgb(49, 70, 81);
+     margin-top: 20px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 30px;
+     
+}
+.expSection{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 65%;
+     z-index: 5;
+     overflow-x: hidden;
+     margin-bottom: 20px;
+     
+}
+.timelineSection{
+    height: 500px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    
+}
+.expHeading{
+    color: #ffffff;
+    margin-bottom:20px;
+    
+}
+.expHeading_DM{
+    color:#000000;
+    margin-bottom: 20px;
+}
+
+.skillSection{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skillsHeading{
+    color:#ffffff;
+    margin-bottom: 25px;
+}
+.skillsHeading_DM{
+    color:#000000;
+    margin-bottom: 25px;
+}
+.skills{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+
+.skillsTiles{
+    height: 60px;
+    transition: 1s all;
+    margin:30px;
+}
+.skillsTiles:hover{
+    height: 60px;
+    transform: rotateY(360deg);
+    transition: 2S all;
+}
+
+.connectSection{
+    width:90%;
+    /* background: #8d8e8f; */
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgb(120, 118, 118);
+    border-radius: 5px;
+}
+
+.contactInfo{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contactInfo_DM{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contactInfo h1, .contactInfo h2{
+    color: #ffffff;
+}
+.contactInfo_DM h1, .contactInfo_DM h2{
+    color: #000000;
+}
+.contactInfo span:hover{
+    margin-left: 10px;
+    transition: all 1s;
+}
+.contactInfo span{
+    transition: all 1s;
+}
+.formSection{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formSection_DM{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* __________________RESPONSIVE___________________ */
+@media screen and (max-width:1000px){
+    
+    .splashWindow{
+        flex-direction: column;
+    }
+  
+}
+@media screen and (max-width:800px){
+    .topRef{
+        height:210px;
+        
+    }
+    .splashWindow{
+        flex-direction: column;
+    }
+    .splashImg{
+        width:100%;
+    }
+    .splashCaption{
+        width:100%;
+    }
+    .splashText{
+        width:600px;
+    }
+    .splashText_DM{
+        width:600px;
+    }
+    .socialMedia{
+        margin-top:0px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .contactInfo{
+        width: 100%;
+    }
+    .formSection{
+        width: 100%;
+        align-items: center;
+    }
+    .connectSection{
+        flex-direction: column;
+    }
+    .contactInfo_DM{
+        width:100%;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .contactInfo{
+        width:100%;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .formSection_DM{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .topRef{
+        height:150px;
+    }
+    .socialMedia{
+        margin-top:0px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+}
+@media screen and (max-width:360px){
+    .splashText{
+        width:300px
+    }
+    .splashText_DM{
+        width:300px
+    }
+    .skillsTiles{
+        margin: 0px;
+    }
+    .skillSection{
+        padding: 5px;
+
+    }
+}
+
+@media screen and (max-width:1360px){
+    .expSkillsSection{
+        flex-direction: column;
+    }
+    .skillSection{
+        width:100%;
+        padding: 10px;
+        margin-top:70px;
+    }
+    .expSection{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .timelineSection{
+        width:80%;
+    }
+}
