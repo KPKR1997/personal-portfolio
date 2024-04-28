@@ -1,6 +1,6 @@
 import styles from './videoFrame2.module.css';
 
-export const VideoFrame2 = (props) =>{
+const VideoFrame2 = (props) =>{
 
     return(
         <div className={styles.main}>
@@ -16,3 +16,5 @@ export const VideoFrame2 = (props) =>{
         </div>
     )
 }
+
+export default VideoFrame2;

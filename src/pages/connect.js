@@ -1,10 +1,10 @@
 import {useState, useEffect} from 'react';
 import Navbar from "./components/navbar";
 import React from 'react';
-import {Footer} from "./components/footer"
+import Footer from "./components/footer"
 import styles from "@/styles/connect.module.css";
 import Head from "next/head";
-import {Form} from "./components/inputForm"
+import Form from "./components/inputForm"
 
 
 

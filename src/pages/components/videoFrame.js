@@ -1,6 +1,6 @@
 import styles from './videoFrame.module.css';
 
-export const VideoFrame = (props) =>{
+const VideoFrame = (props) =>{
 
 const video = "/videos/developer_bg.mp4";
 const image = "./images/mern.png";
@@ -25,3 +25,4 @@ const paragraph = `" I build easy-to-use platforms for learning and sharing know
         </div>
     )
 }
+export default VideoFrame;

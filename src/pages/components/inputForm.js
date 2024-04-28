@@ -2,7 +2,7 @@ import styles from './inputForm.module.css';
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-export const Form = (props)=>{
+const Form = (props)=>{
 
     const [state, handleSubmit] = useForm("xoqgrapy");
     if (state.succeeded) {
@@ -28,3 +28,5 @@ export const Form = (props)=>{
         </div>
     )
 }
+
+export default Form;

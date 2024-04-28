@@ -1,6 +1,6 @@
 import styles from './typingEffect.module.css';
 
-export const Typing = (props)=>{
+const Typing=(props)=>{
 
 
     return(
@@ -20,3 +20,5 @@ export const Typing = (props)=>{
             </>
     );
 }
+
+export default Typing;

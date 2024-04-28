@@ -1,7 +1,7 @@
 import styles from './worktiles.module.css';
 import Link from 'next/link';
 
-export const Worktiles = (props)=>{
+const Worktiles = (props)=>{
     return(
         <div className = {styles.worksTiles}>
             <div className = {styles.ImgSection}>
@@ -18,3 +18,5 @@ export const Worktiles = (props)=>{
         </div>
     )
 }
+
+export default Worktiles;

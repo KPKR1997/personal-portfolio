@@ -1,6 +1,6 @@
 import styles from './timelineSlider.module.css'
 
-export const Timeline = (props)=>{
+const Timeline = (props)=>{
     return(
         <>
             
@@ -46,3 +46,5 @@ export const Timeline = (props)=>{
         </>
     )
 }
+
+export default Timeline;

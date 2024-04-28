@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/explore.module.css";
 import Navbar from "./components/navbar";
-import {VideoFrame} from "./components/videoFrame";
-import {VideoFrame2} from "./components/videoFrame2";
+import VideoFrame from "./components/videoFrame";
+import VideoFrame2 from "./components/videoFrame2";
 import Link from 'next/link';
 import React from 'react';
 

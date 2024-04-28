@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react';
 import Navbar from "./components/navbar";
 import Link from 'next/link';
 import React from 'react';
-import {Footer} from "./components/footer"
+import Footer from "./components/footer"
 
 export default function Profile(){
 
