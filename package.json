@@ -28,12 +28,6 @@
     "webpack": "^1.9.6",
     "webpack-dev-middleware": "^7.2.1",
     "webpack-hot-middleware": "^2.0.0"
-  },
-  "devDependencies": {    
-   "@babel/plugin-transform-typescript": "7.19.3",
-  },
-    "resolutions": {   
-   "@babel/plugin-transform-typescript": "7.19.3"
-}
+  }
   
 }
