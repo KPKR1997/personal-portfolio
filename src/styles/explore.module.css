@@ -6,203 +6,23 @@
     justify-content: center;
     padding: 5px;
     flex-direction: column;
-    
-}
-
-.splashWindow{
-    /* border:solid greenyellow; */
-    height: 35rem;
-    margin: 15px;
-    width:90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    background: black;
+    transition: all 1s;
     flex-wrap: wrap;
-    box-shadow:1px 1px 300px rgb(41, 40, 40);
-    border-radius:15px;
-    flex-direction: row;
 }
-
-@media (max-width:1300px){
-.splashWindow{
-    /* border:solid greenyellow; */
-    height: 35rem;
-    margin: 15px;
-    width:90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    box-shadow:1px 1px 300px rgb(6, 6, 6);
-    border-radius:15px;
-}
-}
-.splashImg{
-    /* border:solid rgb(46, 73, 194); */
-    height: 90%;
-    margin-top: 30px;
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: flex-start;
-    border-radius: 10%;
-}
-.splashCaption{
-    /* border:solid rgb(46, 73, 194); */
-    height: fit-content;
-    margin-top: 0px;
-    width:40rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15%;
-    flex-direction: column;
-}
-
-.splashPicture{
-
-}
-
-.splashCaption2 p{
-    color: aliceblue;
-    font-size: large;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.socialMedia{
-    margin:60px auto 10px;
-    width:90%;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    /* border: solid yellow; */
-    flex-direction: column;
-}
-
-.socialMediaItem{
-    width:40px;
-    height: 40px;
-    display:block;
-    transition: all 0.5s;
-}
-
-.socialMediaItem:hover{
-    width:45px;
-    height: 45px;
-    box-shadow: 1px 1px 10px #f4b961;
-    border-radius: 20%;
-}
-
-
-.socialMediaLink{
-    padding: 10px;
-    margin: 10px;
-    color:#f4b961;
-    text-align: center;
-}
-
-/* --------------------------------------------------------------------------- */
-
-.splash2Caption{
-    border:solid rgb(46, 73, 194);
-    height: 90%;
-    margin-top: 30px;
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10%;
-    flex-wrap: wrap;
-    background:none;
-}
-.splash2Img{
-    border:solid rgb(46, 73, 194);
-    height: 90%;
-    margin-top: 30px;
-    width:40rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15%;
-    flex-direction: column;
-    background:none;
-}
-.splash2Picture{
-    object-fit: cover;
-}
-.splash2Window{
-    /* border:solid greenyellow; */
-    height: 35rem;
-    margin: 15px;
-    width:90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    border-radius:15px;
-    /* background-image: url("/images/mern.png");
-    background-size: "cover";
-    /* background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-blend-mode: soft-light; */ 
-}
-@media (max-width:1300px){
-.splash2Window{
-    /* border:solid greenyellow; */
-    height: 35rem;
-    margin: 15px;
-    width:90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    border-radius:15px;
-    background-image: url("/images/mern.png");
-    background-size: "cover";
-    background-repeat: no-repeat;
-}
-}
-
-
-
-/*EXTERNAL LIB CONTENTS*/
-
-.wrapper {
-    height: 20vh;
-    /*This part is important for centering*/
-    display: grid;
-    place-items: center;
-  }
-  
-  .typing_demo {
+.main_DM{
     width: 100%;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    text-align: justify;
-    overflow: hidden;
-    border-right: 0px solid;
-    font-family: monospace;
-    font-size: 2.5em;
-    color: #f4b961;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-      
-    }
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: column;
+    background: black;
+    transition: all 1s;
+    flex-wrap: wrap;
+}
+
+.topRef{
+    width:100%;
+    height:130px;
+}

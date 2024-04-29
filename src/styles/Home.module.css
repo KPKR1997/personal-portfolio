@@ -144,6 +144,20 @@
     align-items: center;
     flex-direction: column;
     float: left;
+    transition: all 1s;
+}
+.aboutSection:hover{
+    width:90%;
+    padding: 20px;
+    box-shadow: 20px 20px 70px rgb(49, 70, 81);
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    transition: all 1s;
 }
 
 .aboutMeMain{
@@ -161,6 +175,7 @@
     color: rgb(255, 255, 255);
     text-align: center;
     line-height: 30px;
+    font-size: 17px;
  }
  .aboutMeMain_DM{
     width: 90%;
@@ -241,7 +256,18 @@
      justify-content: space-between;
      align-items: center;
      padding-top: 30px;
-     
+     transition: all 1s;
+}
+.expSkillsSection:hover{
+    width:90%;
+    box-shadow: 20px 20px 70px rgb(49, 70, 81);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    transition: all 1s;
 }
 .expSection{
      display: flex;
@@ -286,7 +312,7 @@
     margin-bottom: 25px;
 }
 .skills{
-    display: flex;
+     display: flex;
      justify-content: center;
      align-items: center;
      flex-wrap: wrap;
@@ -302,6 +328,7 @@
     height: 60px;
     transform: rotateY(360deg);
     transition: 2S all;
+    margin:30px;
 }
 
 .connectSection{

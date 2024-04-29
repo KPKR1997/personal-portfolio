@@ -1,79 +1,86 @@
 .main{
-    height: 35rem;
+    height: 30rem;
     margin: 15px;
     width:90%;
-    box-shadow:1px 1px 300px rgb(8, 8, 8);
+    box-shadow:1px 1px 100px rgb(46, 58, 69);
     border-radius:15px;
-    position: sticky;
-    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
 }
-
-.Video{
+.image{
+    height: 140%;
+    width: 100%;
+    vertical-align: middle;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
-       border-radius: 15px;
-       z-index: 3;
 }
-.overLay{
-        position: relative;
-        width: 45%;
-        height: 100%;
-        margin: 0 0 0 auto;
-        padding: 20px;
-        z-index: 5;
-        opacity: 60%;
-        background-color: #080808;
-        border-radius: 15px;
+
+.OverLay{
+        width:100%;
+        height: 30rem;
+        background: rgb(27, 26, 26);
+        z-index:10;
+        position: absolute;
+        bottom: 0;
+        opacity: 70%;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
+        flex-direction: row;
 }
-
-.heading{
-    position: absolute;
-    color: rgb(245, 247, 250);
-    z-index: 6;
-    width: 40%;
-    background: none;
-    margin:25px;
-    line-height: 50px;
-}
-
-.headingMain{
-    position: absolute;
-    color: rgb(245, 247, 250);
-    z-index: 6;
-    width: 40%;
-    background: none;
-    margin:15%;
-    line-height: 60px;
-    font-size: 350%;
-    font-weight: 800;
-    text-shadow: 5px 5px 10px black;
-    overflow: hidden;
-}
-
-.captionPicture{
-    background: none;
+.headingSection{
     width:50%;
-    margin: auto;
-    
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paraSection{
+    width:50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paraSection p{
+    line-height: 40px;
+    font-size: large;
+    color: aliceblue;
+    font-weight: 800;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+    opacity: 100%;
+    text-shadow: 10px;
+}
+.headingSection h1{
+    color: aliceblue;
+    font-size: 40px;
+   
 }
 
-.overLay p{
-    background: none;
-    color: aliceblue;
-    text-align: center;
-    line-break: strict;
-    font-size: larger;
-    line-height: 35px;
-    overflow: hidden;
+@media screen and (max-width:900px){
+    .paraSection{
+        width:100%;
+    }
+    .headingSection{
+        width:100%;
+    }
+    .OverLay{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:500px){
+    .paraSection p{
+        font-size: small;
+    }
+    .headingSection h1{
+        font-size: medium;
+    }
+    .OverLay{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
