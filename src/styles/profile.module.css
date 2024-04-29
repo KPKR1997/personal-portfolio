@@ -11,6 +11,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
     
 }
 .main_DM{
@@ -41,6 +42,7 @@
     box-shadow:  5px 5px 30px rgb(49, 70, 81);
     border-radius: 10px;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .Imgdiv{
@@ -221,6 +223,28 @@
         width:35rem;
         height: 25rem;
         margin-top:70px;
+    }
+}
+@media screen and (max-width:400px){
+    .bioDetailsDiv h1{
+        color: rgb(2, 88, 163);
+        font-size: large;
+     }
+    .bioDetailsDiv_DM h1{
+        color: rgb(2, 88, 163);
+        font-size: large;
+     }
+    .bioDetailsDiv p{
+        color: rgb(255, 255, 255);
+        line-height: 40px;
+        transition: 1s all;
+        font-size: small;
+    }
+   
+    .bioDetailsDiv_DM p{
+        line-height: 40px;
+        transition: 1s all;
+        font-size: small;
     }
 }
 
