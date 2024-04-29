@@ -24,7 +24,7 @@ const CV_file = "./files/KRISHNA_PRAKASH_RESUME_APRIL24.pdf";
         <>
         <Head>
      <meta charset="utf-8" />
-     <link rel="shortcut icon" href="/favicon.ico" />
+     <link rel="icon" href="/favicon.ico" />
      <title>Krishnaprakash</title>
      <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
