@@ -17,7 +17,6 @@
     justify-content: center;
     padding: 5px;
     flex-direction: column;
-    background: black;
     transition: all 1s;
     flex-wrap: wrap;
 }
