@@ -1,10 +1,10 @@
 import styles from '@/styles/profile.module.css';
 import Head from "next/head";
 import {useState, useEffect} from 'react';
-import Navbar from "./components/navbar";
+import Navbar from "@/components/navbar";
 import Link from 'next/link';
 import React from 'react';
-import Footer from "./components/footer"
+import Footer from "@/components/footer"
 
 export default function Profile(){
 
@@ -44,7 +44,7 @@ const CV_file = "./files/KRISHNA_PRAKASH_RESUME_APRIL24.pdf";
                     <p className = {styles.malayalam}>English, മലയാളം</p>
                 </div>
                 <div className = {styles.downloadCvDiv}>
-                    <a href = {CV_file} className={styles.downloadLink}><div className ={styles.downloadBtn}><h3>Download CV</h3></div></a>
+                    <Link href = {CV_file} className={styles.downloadLink}><div className ={styles.downloadBtn}><h3>Download CV</h3></div></Link>
                 </div>
             </div>
             <Footer brandImg = {brandImage}/>

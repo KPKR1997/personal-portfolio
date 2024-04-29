@@ -1,15 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import Navbar from "./components/navbar";
+import Navbar from "@/components/navbar";
 import Link from 'next/link';
 import React from 'react';
 import Video from 'next-video';
 import {useState, useEffect} from 'react';
-import Typing from "./components/typingEffect";
-import Timeline from "./components/timelineSlider"
-import Form from "./components/inputForm"
-import Footer from "./components/footer"
+import Typing from "@/components/typingEffect";
+import Timeline from "@/components/timelineSlider"
+import Form from "@/components/inputForm"
+import Footer from "@/components/footer"
 
 
 
