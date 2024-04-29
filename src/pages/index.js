@@ -47,7 +47,7 @@ export default function Home() {
         const Typetext2 = "UI Designer";
         const Typetext3 = "Data Analyst";
         const Typetext4 = "Science Geek";
-        const Typetext5 = "Aviation enthusiast";
+        const Typetext5 = "Infographics";
   //  -----------------------------------------------------------------
         const aboutMeHeading = "A Brief about me"
         const aboutMeText = `I'm currently serving a role as semiconductor yield engineer for an Incorporated company based on U.S. 

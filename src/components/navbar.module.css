@@ -125,10 +125,10 @@
         display: none;
     }
     .navBarTitle{
-        width:25%;
+        width:100%;
         display: flex;
-        justify-content: space-between;
-        margin-left: 10px;
+        justify-content: flex-start;
+        align-items: center;  
     }
     .navBarTitle:hover{
         width:25%;
