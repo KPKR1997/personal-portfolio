@@ -21,8 +21,8 @@ const profileImage = "./images/profile.png";
 const CV_file = "./files/KRISHNA_PRAKASH_RESUME.pdf";
 
     return(
-        <>
-        <Head>
+    <>
+    <Head>
      <meta charset="utf-8" />
      <link rel="icon" href="/favicon.ico" />
      <title>Krishnaprakash</title>

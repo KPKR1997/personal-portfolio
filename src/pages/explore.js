@@ -37,6 +37,12 @@ export default function Explore(props) {
   const Hobbyparagraph3 = `"Spending time near to any active Runway makes me HAPPY... 
                           From commercial airliners to military jets, I'm fascinated by the diverse array of aircraft that grace the skies"`
 
+  const Hobbyimage4 = "./images/hobbies/rc.jpg";
+  const Hobbyheading4 = "RC and DIYer"
+  const Hobbyparagraph4 = `I'm a DIY enthusiast who loves electronics and RC hobbies. Right now, 
+                          I'm tackling my biggest project yet: building a hyper-realistic RC Boeing 777. It's a challenge I'm excited to take on, 
+                          and I can't wait to see this miniature marvel come to life through my craftsmanship.`
+
 
     return(
         <div className={darkmode?styles.main:styles.main_DM}>
@@ -45,6 +51,7 @@ export default function Explore(props) {
           <VideoFrame Hobbyimage ={Hobbyimage1} Hobbyheading = {Hobbyheading1} Hobbyparagraph = {Hobbyparagraph1}/>
           <VideoFrame2 Hobbyimage ={Hobbyimage2} Hobbyheading = {Hobbyheading2} Hobbyparagraph = {Hobbyparagraph2}/>
           <VideoFrame Hobbyimage ={Hobbyimage3} Hobbyheading = {Hobbyheading3} Hobbyparagraph = {Hobbyparagraph3}/>
+          <VideoFrame2 Hobbyimage ={Hobbyimage4} Hobbyheading = {Hobbyheading4} Hobbyparagraph = {Hobbyparagraph4}/>
         </div>
     );
 }

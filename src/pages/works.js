@@ -39,7 +39,29 @@ const works = [
         platforms:"React.js, Node.js, AWS Cloud",
         thumbnail:"./images/thumbnails/personal.png",
         link:"https://krishnaprakash.in/"
+    },
+    {
+        workname:"Chimizhu Magazine webdoc",
+        type:"Infographics",
+        platforms:"Adobe PS, CSS, aws",
+        thumbnail:"./images/thumbnails/chimizhu.png",
+        link:"https://main.d3gkknoflyqpeg.amplifyapp.com/"
+    },
+    {
+        workname:"IN PROGRESS: E-com platform for Shoppitt Centre",
+        type:"Full stack",
+        platforms:"Deploy ETA : Oct 2024",
+        thumbnail:"./images/thumbnails/ecom.png",
+        link:""
+    },
+    {
+        workname:"IN PROGRESS: Learning Material Platform",
+        type:"Full stack",
+        platforms:"Deploy ETA: June 2024",
+        thumbnail:"./images/thumbnails/grad.jpg",
+        link:"https://krishnaprakash.in/"
     }
+
 ]
 
     return(
@@ -55,7 +77,7 @@ const works = [
                 <div className = {styles.topRef}></div>
                 <div className = {styles.workSection}>
                     <div className={styles.headingSection}>
-                        <h1 className={darkmode?styles.headingText:styles.headingText_DM}>Recent Works</h1>
+                        <h1 className={darkmode?styles.headingText:styles.headingText_DM}>Works</h1>
                     </div>
                     <div className = {styles.worksSubSection}>
                         {works && works.map(work=>(
