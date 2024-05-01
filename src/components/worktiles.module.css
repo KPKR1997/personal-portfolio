@@ -1,5 +1,6 @@
 .worksTiles{
     width:22%;
+    max-width: 300px;
     height:170px;
     /* border: 1px solid red; */
     border-radius: 10px;
@@ -17,12 +18,14 @@
     border-radius: 10px;
     overflow: hidden;
     transition: 2s all ease;
+    
 }
 .workThumbnail{
     height:100%;
     width:100%;
     border-radius: 10px;
     object-fit: cover;
+    margin: auto;
 }
 .workDetails{
     height: 140px;
