@@ -18,7 +18,7 @@ const brandImage = "./images/kp_logo.png";
 const brandImageAlt = "./images/kp_log_3.png";
 //----------------------------------------------------------------------------
 const profileImage = "./images/profile.png";
-const CV_file = "./files/KRISHNA_PRAKASH_RESUME_APRIL24.pdf";
+const CV_file = "./files/KRISHNA_PRAKASH_RESUME.pdf";
 
     return(
         <>
