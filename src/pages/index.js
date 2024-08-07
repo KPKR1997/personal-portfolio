@@ -43,10 +43,10 @@ export default function Home() {
         const instaLight = "images/insta_logo_2.png";
         const linkedInLight = "images/linkedin_icon_2.png";
   //  -----------------------------------------------------------------------------------
-        const Typetext1 = "Developer";
-        const Typetext2 = "UI Designer";
+        const Typetext1 = "Data dashboards";
+        const Typetext2 = "UI Design";
         const Typetext3 = "Data Analyst";
-        const Typetext4 = "Science Geek";
+        const Typetext4 = "Data web Apps";
         const Typetext5 = "Infographics";
   //  -----------------------------------------------------------------
         const aboutMeHeading = "A Brief about me"
