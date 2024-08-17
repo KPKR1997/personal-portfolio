@@ -8,6 +8,9 @@ const Worktiles = (props)=>{
             <div className = {styles.ImgSection}>
                 <img src = {props.thumbnail} className = {styles.workThumbnail}/>
             </div>
+            <div className = {styles.worklabel}>
+                <h4>{props.worklabel}</h4>
+            </div>
             <div className = {styles.workDetails}>
                 <h3 className = {props.darkmode?styles.details:styles.details_DM}>{props.workname}</h3>
                 <h4 className = {props.darkmode?styles.details:styles.details_DM}>{props.type}</h4>

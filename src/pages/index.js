@@ -32,7 +32,7 @@ export default function Home() {
         const brandImageAlt = "./images/kp_log_3.png";
   // --------------------------------------------------------------------------------------
         const splashPicture = "./images/splash2.png";
-        const splashCaptionLine1 = "Semiconductor production yield Engineer";
+        const splashCaptionLine1 = "Yield data Engineer | Data Scientist";
         const splashCaptionLine2 = "";
    // --------------------------------------------------------------------------------------
         const gitDark = "images/github.png";
@@ -50,15 +50,17 @@ export default function Home() {
         const Typetext5 = "Infographics";
   //  -----------------------------------------------------------------
         const aboutMeHeading = "A Brief about me"
-        const aboutMeText = `I'm currently serving a role as semiconductor yield engineer for an Incorporated company based on U.S. 
-                              Also would like to be identified as A Full stack developer and UX/UI designer based on JavaScript using React.js, 
-                              MongoDB, Node.js with Express and Rest APIs.`
-        const aboutMeText2 = `My Acadamic background is Science, well....yeah I hold a Post graduation degree in Physics. So happy that
+        const aboutMeText =  `A strong passion for science and technology innovations drives my work. 
+                              With a keen interest in Data Science and Development, 
+                              I apply the latest advancements to my projects. My experience as a Yield Data Engineer in the semiconductor 
+                              industry involved quality control through data-driven classification and predictions. 
+                               I enjoy turning big data into valuable insights and am eager to continue expanding my expertise in these areas.`
+        const aboutMeText2 = `I hold a Post graduation degree in Physics. So happy that
                               I could study the subject I loved from my younger age up to Master's level. It framed me to live my life 
-                              as a "Man of science" means happy and feeling good.
+                              with better perspective.
                              Apart from all of these, I'm engaged myself in crazy hobbies and spending time for satisfying my endless enthusisasm
-                              in Technology, Arduino Robotics,RC Crafts, Computer science, Automobile and Die cast, Aviation 
-                              ( Yes, spotting an active Runway makes my innermind great ) and so on......`
+                              in Technology, Arduino Robotics, RC Crafts, Computer science, Aviation, Automobile and Die-cast collections`
+                            
                               
   //---------------------------------------------------------------------------
         const Exptitle1 = "Yield Engineer"
@@ -132,18 +134,18 @@ export default function Home() {
             <div className = {styles.skillSection}>
               <h1 className = {darkmode? styles.skillsHeading:styles.skillsHeading_DM}>Skills</h1>
               <div className = {styles.skills}>
+              <Link href ="https://www.figma.com/"><img src  = "./images/skills/R.png"  className = {styles.skillsTiles}/></Link>
+              <Link href ="https://www.figma.com/"><img src  = "./images/skills/Python.png"  className = {styles.skillsTiles}/></Link>
+              <Link href ="https://aws.amazon.com/?nc2=h_lg"><img src  = "./images/skills/awsec2.png"  className = {styles.skillsTiles}/></Link>
+              <Link href ="https://www.microsoft.com/en-us/power-platform/products/power-bi"><img src  = "./images/skills/powerbi.png"  className = {styles.skillsTiles}/></Link>
+              <Link href ="https://www.microsoft.com/en-in/microsoft-365/microsoft-office"><img src  = "./images/skills/msoffice.png"  className = {styles.skillsTiles}/></Link>
               <Link href ="https://www.javascript.com/"><img src  = "./images/skills/javascript.png"  className = {styles.skillsTiles}/></Link>
               <Link href ="https://react.dev/"><img src  = "./images/skills/react.png"  className = {styles.skillsTiles}/></Link>
-              <Link href ="https://nodejs.org/en"><img src  = "./images/skills/node.png"  className = {styles.skillsTiles}/></Link>
               <Link href ="https://www.mongodb.com/"><img src  = "./images/skills/mongo.png"  className = {styles.skillsTiles}/></Link>
-              <Link href ="https://code.visualstudio.com/"><img src  = "./images/skills/vscode.png"  className = {styles.skillsTiles}/></Link>
               <Link href ="https://git-scm.com/"><img src  = "./images/skills/git.png"  className = {styles.skillsTiles}/></Link>
               <Link href ="https://html.com/html5/"><img src  = "./images/skills/html.png"  className = {styles.skillsTiles}/></Link>
               <Link href ="https://css3.com/"><img src  = "./images/skills/css.png"  className = {styles.skillsTiles}/></Link>
-              <Link href ="https://aws.amazon.com/?nc2=h_lg"><img src  = "./images/skills/awsec2.png"  className = {styles.skillsTiles}/></Link>
-              <Link href ="https://www.figma.com/"><img src  = "./images/skills/figma.png"  className = {styles.skillsTiles}/></Link>
-              <Link href ="https://www.microsoft.com/en-us/power-platform/products/power-bi"><img src  = "./images/skills/powerbi.png"  className = {styles.skillsTiles}/></Link>
-              <Link href ="https://www.microsoft.com/en-in/microsoft-365/microsoft-office"><img src  = "./images/skills/msoffice.png"  className = {styles.skillsTiles}/></Link>
+              
               </div>
             </div>
          </div>
