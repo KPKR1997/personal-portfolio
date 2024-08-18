@@ -66,6 +66,14 @@ const works = [
         platforms:"Adobe PS, CSS, aws",
         thumbnail:"./images/thumbnails/chimizhu.png",
         link:"https://main.d3gkknoflyqpeg.amplifyapp.com/"
+    },
+    {
+        label:"Python - Machine learning",
+        workname:"Weather prediction web app",
+        type:"Machine learning/python streamlit",
+        platforms:"Python streamlit, scikit-learn",
+        thumbnail:"./images/thumbnails/randomforest.png",
+        link:"https://knowweather.streamlit.app/"
     }
 
 

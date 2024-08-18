@@ -62,7 +62,7 @@
     transition-delay:3s;
 }
 .worksTiles:hover{
-    height:350px;
+    height:460px;
     transition: height 1s all ease;
 }
 .worklabel{
