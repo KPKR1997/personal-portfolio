@@ -32,7 +32,7 @@ export default function Home() {
         const brandImageAlt = "./images/kp_log_3.png";
   // --------------------------------------------------------------------------------------
         const splashPicture = "./images/splash2.png";
-        const splashCaptionLine1 = "Yield data Engineer | Data Scientist";
+        const splashCaptionLine1 = "Engineer, Data science and ML";
         const splashCaptionLine2 = "";
    // --------------------------------------------------------------------------------------
         const gitDark = "images/github.png";
@@ -47,12 +47,12 @@ export default function Home() {
         const Typetext2 = "Machine learning";
         const Typetext3 = "Data Analyst";
         const Typetext4 = "Data Web Apps";
-        const Typetext5 = "Infographics";
+        const Typetext5 = "Big Data";
   //  -----------------------------------------------------------------
         const aboutMeHeading = "A Brief about me"
         const aboutMeText =  `A strong passion for science and technology innovations drives my work. 
                               With a keen interest in Data Science and Development, 
-                              I apply the latest advancements to my projects. My experience as a Yield Data Engineer in the semiconductor 
+                              I apply the latest advancements to my projects. My experience in Yield Data analytics engineeering in the semiconductor 
                               industry involved quality control through data-driven classification and predictions. 
                                I enjoy turning big data into valuable insights and am eager to continue expanding my expertise in these areas.`
         const aboutMeText2 = `I hold a Post graduation degree in Physics. So happy that
@@ -63,7 +63,7 @@ export default function Home() {
                             
                               
   //---------------------------------------------------------------------------
-        const Exptitle1 = "Yield Engineer"
+        const Exptitle1 = "Yield Data Engineer"
         const Exptitle2 = "Intern"
         const Exptitle3 = "Propreitor"
         const Expdate1 = "Oct 2022 -"
@@ -158,6 +158,21 @@ export default function Home() {
               <Form darkmode = {darkmode}/>
             </div>
          </div>
+         <script
+            src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
+            user-profile="https://topmate.io/embed/profile/krishnaprakash_kr?theme=93C5F9"
+            btn-style='{"backgroundColor":"#000","color":"#fff","border":"1px solid #000"}'
+            embed-version="v1"
+            button-text="Get Services online"
+            position-right="30px"
+            position-bottom="30px"
+            custom-padding="0px"
+            custom-font-size="16px"
+            custom-font-weight="500"
+            custom-width="250px"
+            async=""
+            defer=""
+      ></script>
          <Footer brandImg = {brandImage}/>
       </div>
       
