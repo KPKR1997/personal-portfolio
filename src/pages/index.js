@@ -44,10 +44,10 @@ export default function Home() {
         const linkedInLight = "images/linkedin_icon_2.png";
   //  -----------------------------------------------------------------------------------
         const Typetext1 = "Data Dashboards";
-        const Typetext2 = "Machine learning";
-        const Typetext3 = "Data Analyst";
-        const Typetext4 = "Data Web Apps";
-        const Typetext5 = "Big Data";
+        const Typetext2 = "ML CI/CD Pipelines";
+        const Typetext3 = "Data Analysis";
+        const Typetext4 = "Predictive models";
+        const Typetext5 = "Classification models";
   //  -----------------------------------------------------------------
         const aboutMeHeading = "A Brief about me"
         const aboutMeText =  `A strong passion for science and technology innovations drives my work. 
@@ -63,7 +63,7 @@ export default function Home() {
                             
                               
   //---------------------------------------------------------------------------
-        const Exptitle1 = "Yield Data Engineer"
+        const Exptitle1 = "Yield Engineer - Data science and analytics"
         const Exptitle2 = "Intern"
         const Exptitle3 = "Propreitor"
         const Expdate1 = "Oct 2022 -"
