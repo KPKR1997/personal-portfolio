@@ -76,7 +76,7 @@ const works = [
         link:"https://knowweather.streamlit.app/"
     },
     {
-        label:"Machine learning pipeline",
+        label:"ML Prediction model pipeline - flask",
         workname:"Airline price prediction Flask app (github repository link)",
         type:"Machine learning web app",
         platforms:"Python scikit-learn, flask, git",

@@ -59,7 +59,7 @@
 
 .worksTiles:hover .workDetails{
     display: block;
-    transition-delay:3s;
+    transition-delay:1s;
 }
 .worksTiles:hover{
     height:460px;
@@ -69,9 +69,10 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    transition: 1s ease-in-out;
+    transition: 1s;
     background-color: rgb(25, 115, 194);
-    border-radius:10px ;
+    border-radius:5px ;
+    width:100%
 }
 .worklabel h4{
     color: rgb(255, 255, 255);
@@ -94,7 +95,7 @@
     }
     .worksTiles:hover .workDetails{
         display: block;
-        transition-delay:3s;
+        transition-delay:1s;
     }
     .worksTiles:hover{
         height:500px;
