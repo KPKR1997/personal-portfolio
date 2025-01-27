@@ -74,6 +74,14 @@ const works = [
         platforms:"Python streamlit, scikit-learn",
         thumbnail:"./images/thumbnails/randomforest.png",
         link:"https://knowweather.streamlit.app/"
+    },
+    {
+        label:"Machine learning pipeline",
+        workname:"Airline price prediction Flask app (github repository link)",
+        type:"Machine learning web app",
+        platforms:"Python scikit-learn, flask, git",
+        thumbnail:"./images/thumbnails/predictive.jpg",
+        link:"https://github.com/KPKR1997/airline-price-prediction-MLpipeline"
     }
 
 
