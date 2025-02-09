@@ -20,12 +20,12 @@ const brandImageAlt = "./images/kp_log_3.png";
 //----------------------------------------------------------------------------
 const works = [
     {
-        label:"HTML/CSS/JavaScript Website",
-        workname:"Dept. Website for University of Kerala",
-        type:"Web/UI/UX",
-        platforms:"HTML5, JavaScript, CSS, Firebase",
-        thumbnail:"./images/thumbnails/dept.png",
-        link:"https://department-of-physics-455cd.web.app/"
+        label:"ML Prediction model pipeline - flask",
+        workname:"Airline price prediction Flask app (github repository link)",
+        type:"Machine learning web app",
+        platforms:"Python scikit-learn, flask, git",
+        thumbnail:"./images/thumbnails/predictive.jpg",
+        link:"https://github.com/KPKR1997/airline-price-prediction-MLpipeline"
     },
     {
         label:"R - Machine learning",
@@ -36,12 +36,28 @@ const works = [
         link:"https://krishnaprakash.shinyapps.io/email_classification/"
     },
     {
+        label:"Sentiment analysis Pipeline",
+        workname:"ML sentiment analysis repository",
+        type:"Machine learning",
+        platforms:"Python, flask, Docker",
+        thumbnail:"./images/thumbnails/sa.png",
+        link:"https://github.com/KPKR1997/sentiment-analysis"
+    },
+    {
         label:"Python data dashboard",
         workname:"Dashboard - Startup funding India",
         type:"Interactive Data dashboard",
         platforms:"Python streamlit",
         thumbnail:"./images/thumbnails/streamlit.png",
         link:"https://startupfundingindia.streamlit.app/"
+    },
+    {
+        label:"Python - Machine learning",
+        workname:"Weather prediction web app",
+        type:"Machine learning/python streamlit",
+        platforms:"Python streamlit, scikit-learn",
+        thumbnail:"./images/thumbnails/randomforest.png",
+        link:"https://knowweather.streamlit.app/"
     },
     {
         label:"UI Design",
@@ -68,22 +84,13 @@ const works = [
         link:"https://main.d3gkknoflyqpeg.amplifyapp.com/"
     },
     {
-        label:"Python - Machine learning",
-        workname:"Weather prediction web app",
-        type:"Machine learning/python streamlit",
-        platforms:"Python streamlit, scikit-learn",
-        thumbnail:"./images/thumbnails/randomforest.png",
-        link:"https://knowweather.streamlit.app/"
+        label:"HTML/CSS/JavaScript Website",
+        workname:"Dept. Website for University of Kerala",
+        type:"Web/UI/UX",
+        platforms:"HTML5, JavaScript, CSS, Firebase",
+        thumbnail:"./images/thumbnails/dept.png",
+        link:"https://department-of-physics-455cd.web.app/"
     },
-    {
-        label:"ML Prediction model pipeline - flask",
-        workname:"Airline price prediction Flask app (github repository link)",
-        type:"Machine learning web app",
-        platforms:"Python scikit-learn, flask, git",
-        thumbnail:"./images/thumbnails/predictive.jpg",
-        link:"https://github.com/KPKR1997/airline-price-prediction-MLpipeline"
-    }
-
 
 ]
 
