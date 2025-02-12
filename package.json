@@ -25,9 +25,10 @@
     "react-type-animation": "^3.2.0",
     "typed.js": "^2.1.0",
     "typewriter-effect": "^2.21.0",
-    "webpack": "^1.9.6",
     "webpack-dev-middleware": "^7.2.1",
     "webpack-hot-middleware": "^2.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1"
   }
-  
 }
