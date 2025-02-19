@@ -20,7 +20,7 @@ const brandImageAlt = "./images/kp_log_3.png";
 //----------------------------------------------------------------------------
 const works = [
     {
-        label:"ML Prediction model pipeline - flask",
+        label:"Airline price prediction- ML Pipeline ",
         workname:"Airline price prediction Flask app (github repository link)",
         type:"Machine learning web app",
         platforms:"Python scikit-learn, flask, git",
@@ -28,20 +28,28 @@ const works = [
         link:"https://github.com/KPKR1997/airline-price-prediction-MLpipeline"
     },
     {
-        label:"R - Machine learning",
-        workname:"Email Spam Classifier",
-        type:"Machine learning - kNN",
-        platforms:"R Shiny Web App",
-        thumbnail:"./images/thumbnails/shiny.png",
-        link:"https://krishnaprakash.shinyapps.io/email_classification/"
-    },
-    {
-        label:"Sentiment analysis Pipeline",
+        label:"ML NLP-Sentiment analysis Pipeline",
         workname:"ML sentiment analysis repository",
         type:"Machine learning",
         platforms:"Python, flask, Docker",
-        thumbnail:"./images/thumbnails/sa.png",
+        thumbnail:"./images/thumbnails/sa.jpg",
         link:"https://github.com/KPKR1997/sentiment-analysis"
+    },
+    {
+        label:"DL ANN, Churn Prediction App",
+        workname:"Customer churn prediction using Artificial nueral networks",
+        type:"Deep learning",
+        platforms:"Python, streamlit, Tensorflow-keras",
+        thumbnail:"./images/thumbnails/ann.png",
+        link:"https://churnmodellingappscript-lmxh4zmm6cqzxd4gdz6ccq.streamlit.app/"
+    },
+    {
+        label:"ML weather prediction App",
+        workname:"Weather prediction web app",
+        type:"Machine learning/python streamlit",
+        platforms:"Python, streamlit, scikit-learn",
+        thumbnail:"./images/thumbnails/randomforest.png",
+        link:"https://knowweather.streamlit.app/"
     },
     {
         label:"Python data dashboard",
@@ -52,12 +60,12 @@ const works = [
         link:"https://startupfundingindia.streamlit.app/"
     },
     {
-        label:"Python - Machine learning",
-        workname:"Weather prediction web app",
-        type:"Machine learning/python streamlit",
-        platforms:"Python streamlit, scikit-learn",
-        thumbnail:"./images/thumbnails/randomforest.png",
-        link:"https://knowweather.streamlit.app/"
+        label:"R - Machine learning",
+        workname:"Email Spam Classifier",
+        type:"Machine learning - kNN",
+        platforms:"R Shiny Web App",
+        thumbnail:"./images/thumbnails/shiny.png",
+        link:"https://krishnaprakash.shinyapps.io/email_classification/"
     },
     {
         label:"UI Design",
