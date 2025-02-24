@@ -20,6 +20,14 @@ const brandImageAlt = "./images/kp_log_3.png";
 //----------------------------------------------------------------------------
 const works = [
     {
+        label:"Credit card fraud detection",
+        workname:"Predicting whether a credit card transaction is legit or fraud",
+        type:"Machine learning web app",
+        platforms:"scikit-learn, GridsearchCV, streamlit, git",
+        thumbnail:"./images/thumbnails/credit_card.jpg",
+        link:"https://creditcardfrauddetectionkp.streamlit.app/"
+    },
+    {
         label:"Airline price prediction- ML Pipeline ",
         workname:"Airline price prediction Flask app (github repository link)",
         type:"Machine learning web app",
