@@ -20,15 +20,17 @@ export default function Explore(props) {
   const brandImage = "./images/kp_logo.png";
   const brandImageAlt = "./images/kp_log_3.png";  
   //-----------------------------------------------------
-  const Hobbyimage1 = "./images/hobbies/mern.jpg";
-  const Hobbyheading1 = "Full stack Developer"
-  const Hobbyparagraph1 = `" I build easy-to-use platforms for People ans business. 
-                Using MongoDB, Express.js, React.js, and Node.js, I create websites 
-                and apps that help people access education resources. I like collaborating and making technology for everyone."` 
+  const Hobbyimage1 = "./images/hobbies/ml.jpg";
+  const Hobbyheading1 = "Machine learning and Science of data"
+  const Hobbyparagraph1 = `" My journey into Machine Learning started as a curiosity, which a perfect blending point of Physics, 
+  mathematics and advanced technology - turning numbers into insights, 
+  training models, and seeing them improve with every iteration. Now, it's my favorite way to solve problems. 
+  From predictions to NLP, I love diving into challenging datasets and optimizing algorithms. 
+  More I learn, more I'm curious"` 
 
   const Hobbyimage2 = "./images/hobbies/science.jpg";
   const Hobbyheading2 = "Man of Science"
-  const Hobbyparagraph2 = `"I have a deep love for method of Science! Understanding the way the world works, from the tiniest particles to the 
+  const Hobbyparagraph2 = `"I have a deep love for method of Science ! Understanding the way the world works, from the tiniest particles to the 
                             vastness of space, captivates me endlessly. 
                             Exploring the laws that govern our universe fills me with excitement and wonder."`
 
