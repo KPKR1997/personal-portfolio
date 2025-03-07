@@ -59,7 +59,7 @@ export default function Home() {
                             
                               
   //---------------------------------------------------------------------------
-        const Exptitle1 = "Yield Engineer - Data science, analytics"
+        const Exptitle1 = "Yield Engineer - Data science"
         const Exptitle2 = "Intern"
         const Exptitle3 = "Propreitor"
         const Expdate1 = "Oct 2022 -"
