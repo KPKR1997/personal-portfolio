@@ -21,7 +21,7 @@ export default function Explore(props) {
   const brandImageAlt = "./images/kp_log_3.png";  
   //-----------------------------------------------------
   const Hobbyimage1 = "./images/hobbies/ml.jpg";
-  const Hobbyheading1 = "Machine learning and Science of data"
+  const Hobbyheading1 = "Machine learning data"
   const Hobbyparagraph1 = `" My journey into Machine Learning started as a curiosity, which a perfect blending point of Physics, 
   mathematics and advanced technology - turning numbers into insights, 
   training models, and seeing them improve with every iteration. Now, it's my favorite way to solve problems. 

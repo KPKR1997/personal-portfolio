@@ -51,15 +51,11 @@ export default function Home() {
   //  -----------------------------------------------------------------
         const aboutMeHeading = "A Brief about me"
         const aboutMeText =  `A strong passion for science and technology innovations drives my work. 
-                              With a keen interest in Data Science and Development, 
-                              I apply the latest advancements to my projects. My experience in Yield Data analytics engineeering in the semiconductor 
-                              industry involved quality control through data-driven classification and predictions. 
-                               I enjoy turning big data into valuable insights and am eager to continue expanding my expertise in these areas.`
-        const aboutMeText2 = `I hold a Post graduation degree in Physics. So happy that
-                              I could study the subject I loved from my younger age up to Master's level. It framed me to live my life 
-                              with better perspective.
-                             Apart from all of these, I'm engaged myself in crazy hobbies and spending time for satisfying my endless enthusisasm
-                              in Technology, Arduino Robotics, RC Crafts, Computer science, Aviation, Automobile and Die-cast collections`
+                              With a keen interest in Data Science and mathematical physics, 
+                              I apply them to my projects for end-to-end model development. Experience in Data analytics engineeering with industry standard model deployment, contributing to 
+                               quality control through data-driven insights. 
+                               Turning large data into valuable insights and I am still learning and expanding my expertise in this advanced technology.`
+        const aboutMeText2 = ``
                             
                               
   //---------------------------------------------------------------------------
