@@ -25,7 +25,7 @@ const works = [
         type:"Machine learning web app",
         platforms:"scikit-learn, GridsearchCV, streamlit, git",
         thumbnail:"./images/thumbnails/credit_card.jpg",
-        link:"https://creditcardfrauddetectionkp.streamlit.app/"
+        link:"https://github.com/KPKR1997/credit_card_fraud_detection"
     },
     {
         label:"Airline price prediction- ML Pipeline ",
