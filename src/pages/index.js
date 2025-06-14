@@ -32,7 +32,7 @@ export default function Home() {
         const brandImageAlt = "./images/kp_log_3.png";
   // --------------------------------------------------------------------------------------
         const splashPicture = "./images/splash2.png";
-        const splashCaptionLine1 = "Engineer, Data science and ML";
+        const splashCaptionLine1 = "Data Scienist";
         const splashCaptionLine2 = "";
    // --------------------------------------------------------------------------------------
         const gitDark = "images/github.png";
@@ -59,15 +59,15 @@ export default function Home() {
                             
                               
   //---------------------------------------------------------------------------
-        const Exptitle1 = "Yield Engineer - Data science"
-        const Exptitle2 = "Intern"
-        const Exptitle3 = "Propreitor"
-        const Expdate1 = "Oct 2022 -"
-        const Expdate2 = "Mar 2022"
-        const Expdate3 = "June 2021"
-        const ExpDesc1 = "GlobalFoundries Inc. Large volume production data monitoring and Root cause analysis using Systematic process control via statistical approach"
-        const ExpDesc2 = "Yield monitoring and Electrical charecterization disposition"
-        const ExpDesc3 = "CarePLUS, incubated by KUBIIC Student Start up programme, University of Kerala" 
+        const Exptitle1 = "Data scientist"
+        const Exptitle2 = "Propreitor"
+        const Exptitle3 = "Yield Engineer"
+        const Expdate1 = "June 2025 -"
+        const Expdate2 = "June 2024"
+        const Expdate3 = "Mar 2022"
+        const ExpDesc3 = "GlobalFoundries Inc. Large volume production data monitoring and Root cause analysis using Systematic process control via statistical approach"
+        const ExpDesc1 =  "ETL Pipeline and models"
+        const ExpDesc2 = "CarePLUS, incubated by KUBIIC Student Start up programme, University of Kerala" 
         
   //----------------------------------------------------------------------------
 
