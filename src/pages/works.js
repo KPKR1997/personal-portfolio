@@ -20,20 +20,20 @@ const brandImageAlt = "./images/kp_log_3.png";
 //----------------------------------------------------------------------------
 const works = [
     {
+        label:"Todards",
+        workname:"Newsroom AI Agent | Journalism automated",
+        type:"LLM/RAG based AI Agent",
+        platforms:"ollama, chromadb, next.js",
+        thumbnail:"./images/thumbnails/todards.jpg",
+        link:"https://www.todards.online/"
+    },
+    {
         label:"Credit card fraud detection",
         workname:"Predicting whether a credit card transaction is legit or fraud",
         type:"Machine learning web app",
         platforms:"scikit-learn, GridsearchCV, streamlit, git",
         thumbnail:"./images/thumbnails/credit_card.jpg",
         link:"https://github.com/KPKR1997/credit_card_fraud_detection"
-    },
-    {
-        label:"Airline price prediction- ML Pipeline ",
-        workname:"Airline price prediction Flask app (github repository link)",
-        type:"Machine learning web app",
-        platforms:"Python scikit-learn, flask, git",
-        thumbnail:"./images/thumbnails/predictive.jpg",
-        link:"https://github.com/KPKR1997/airline-price-prediction-MLpipeline"
     },
     {
         label:"ML NLP-Sentiment analysis Pipeline",
