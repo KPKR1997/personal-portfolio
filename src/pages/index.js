@@ -43,18 +43,18 @@ export default function Home() {
         const instaLight = "images/insta_logo_2.png";
         const linkedInLight = "images/linkedin_icon_2.png";
   //  -----------------------------------------------------------------------------------
-        const Typetext1 = "Data Dashboards";
-        const Typetext2 = "ML CI/CD Pipelines";
-        const Typetext3 = "Data Analysis";
-        const Typetext4 = "Predictive models";
-        const Typetext5 = "Classification models";
+        const Typetext1 = "AI Automation";
+        const Typetext2 = "Data to Insights";
+        const Typetext3 = "AI Agents for business";
+        const Typetext4 = "Prediction models";
+        const Typetext5 = "Custom GenAI Solutions";
   //  -----------------------------------------------------------------
         const aboutMeHeading = "A Brief about me"
-        const aboutMeText =  `A strong passion for science and technology innovations drives my work. 
-                              With a keen interest in Data Science and mathematical physics, 
-                              I apply them to my projects for end-to-end model development. Experience in Data analytics engineeering with industry standard model deployment, contributing to 
-                               quality control through data-driven insights. 
-                               Turning large data into valuable insights and I am still learning and expanding my expertise in this advanced technology.`
+        const aboutMeText =  `With a strong foundation in Physics, statistics, and computational methods, 
+        I specialize in AI engineering, data science, and intelligent automation. My expertise spans predictive modeling, advanced analytics, 
+        generative AI, LLM-powered applications, AI agents, and data engineering. I focus on developing robust, data-driven systems that enhance 
+        analytical capabilities, optimize business processes, and support informed decision-making. By combining scientific rigor with practical engineering, 
+        I aim to deliver scalable AI solutions aligned with business objectives and measurable outcomes.`
         const aboutMeText2 = ``
                             
                               
